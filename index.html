@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gift</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+<div class="htmleaf-container">
+    <div class="wrapper">
+        <div class="container">
+            <h1 id="h"></h1>
+            <form class="form">
+                <input id="userName" name="userName" type="text" placeholder="姓名"  >
+                <input id="pwd" name="pwd" type="password" placeholder="密码">
+                <button type="submit" id="login-button">进入</button>
+            </form>
+        </div>
+
+        <ul class="bg-bubbles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+</div>
+
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/verification.js"></script>
+
+</body>
+<script src="https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.min.js"></script>
+
+<script>
+    L2Dwidget.init({
+        "model": {
+
+
+            jsonPath: "https://unpkg.com/live2d-widget-model-koharu@1.0.5/assets/koharu.model.json",
+
+            "scale": 1
+        },
+
+        "display": {
+
+            "position": "left",
+            "width": 150,
+            "height": 300,
+            "hOffset": 0,
+
+            "vOffset": -20
+        },
+
+        "mobile": {
+
+            "show": true,
+
+            "scale": 0.5
+        },
+
+        "react": {
+
+            "opacityDefault": 0.7,
+
+            "opacityOnHover": 0.2
+        }
+    });
+
+</script>
+</html>
