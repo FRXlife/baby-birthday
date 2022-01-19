@@ -1,7 +1,7 @@
 $('#login-button').click(function (event) {
     let userName = document.getElementById("userName").value;
     let pwd = document.getElementById("pwd").value;
-    if (userName == "xsx小仙女" && pwd == "111111") {
+    if (userName == "xsx小仙女" && pwd == "1314521") {
         $('#h').text("Let's go！~(～￣▽￣)～");
         event.preventDefault();
         $('form').fadeOut(500);
